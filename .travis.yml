@@ -1,1 +1,3 @@
 language: c
+sudo: required
+script: make dep && make && make test
